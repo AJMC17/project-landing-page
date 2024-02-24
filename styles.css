@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.header,
+.upper-header,
+.links,
+.lower-header,
+.information,
+.images-info,
+.quote,
+.mainbox,
+.left-cta,
+.footer {
+    display: flex;
+}
+
+.logo,
+.title-cta {
+    font-size: 24px;
+}
+
+.upper-header {
+    align-items: center;
+    color: white;
+}
+
+.lower-header {
+    padding: 100px 0;
+}
+
+.links,
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-title,
+.logo {
+    color: #f9faf8;    
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.image-header {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.hero {
+    padding-right: 25px;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {    
+    gap: 15px;
+    margin-left: auto;
+}
+
+.subtext {
+    padding: 20px 0;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    color: #e5e7eb;
+    border-style: solid;
+}
+
+.information {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 250px;
+}
+
+.title-info {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 30px;
+}
+
+.images-info {
+    padding: 0;
+    gap: 25px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.images-info > li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.images-subtext {
+    width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+    margin-bottom: 5px;
+}
+
+.quote {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    background-color: #e5e7eb;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: white;
+    margin: 50px 100px;
+    color: white;
+}
+
+.mainbox {
+    border-radius: 8px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 150px;
+}
+
+.left-cta {
+    flex-direction: column;
+}
+
+.title-cta {
+    font-weight: bold;
+}
+
+.signup-cta {
+    border-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
